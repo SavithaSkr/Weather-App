@@ -10,7 +10,7 @@ Styled with Tailwind CSS for a responsive and modern design.
 
 # Demo
 
-![Weather App Screenshot](assets/screenshot.png)
+![Weather App Screenshot](assets/screenshot.jpg)
 
 ## Getting Started
 
