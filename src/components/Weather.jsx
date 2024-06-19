@@ -10,6 +10,7 @@ const Weather = () => {
   const handleCity = (evt) => {
     setCity(evt.target.value);
   };
+
   const getWeather = () => {
     console.log("in getweather funcito");
     var weatherData = axios(
