@@ -28,18 +28,16 @@ const Weather = () => {
   };
   return (
     <>
-      <div className="bg-black p-16">
-        <div className="bg-green-400 border rounded-md p-12">
+      <div className="bg-black p-16 max-w mr-auto">
+        <div className="bg-green-400 border rounded-md p-5 flex flex-wrap flex-col items-center justify-center">
           <div className="text-2xl font-medium">Weather Report</div>
           <br />
-
           <p>I can give you a weather report about your city</p>
           <br />
-
           <input
             type="text"
             placeholder="Enter your city name"
-            className=" mt-2 mb-2  p-1 text-xl font-medium border rounded-md"
+            className="p-2 text-xl font-medium border rounded-md "
             onChange={handleCity}
           ></input>
           <br />
@@ -51,15 +49,17 @@ const Weather = () => {
             Get Report
           </button>
           <br />
-          <br />
+          <br /> <br />
           <p className="font-bold">
             The Weather in{" "}
             <span className="text-pink-700 underline">{city}</span> is
-          </p>
+          </p>{" "}
+          <br />
           <br />
           <p className="font-bold">
             Weather :<span className="text-pink-700 underline"> {weather}</span>{" "}
-          </p>
+          </p>{" "}
+          <br />
           <br />
           <p className="font-bold">
             Temperature :
